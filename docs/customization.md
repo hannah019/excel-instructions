@@ -70,7 +70,7 @@ Goal: Sort the number of “Orders” increasingly only in table “Total orders
 
 4.Choose “Cell values” and “Smallest to Largest” separately. 
 
-![choose-operations](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image12.png.png?raw=true)
+![choose-operations](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image12.png?raw=true)
 
 5.Confirm all your operations by clicking OK to see the result below. 
 
