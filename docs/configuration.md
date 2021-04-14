@@ -41,7 +41,7 @@ Pinned allows you to access files that you have pinned. Pinning a file marks it 
     
 To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list".
 
-![right click to pin]((https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/navigation_image2.png?raw=true)
+![right click to pin](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/navigation_image2.png?raw=true)
  
  Your file will now immediately appear under the Pinned tab.
  
