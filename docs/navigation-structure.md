@@ -97,19 +97,19 @@ Beside AutoSum, users are also able to insert Excel functions from the comprehen
 
 2.Click OK to choose IF and carefully read the syntax of this function. In other words, make sure you know how to write this function correctly and list all the conditions needed to operate it.    
 
-  ![select-if](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image11.png?raw=true)
+  ![select-if](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-11.png?raw=true)
 
 3.List all the conditions needed in the blank. 
 
-  ![list-conditions](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image12.png?raw=true)
+  ![list-conditions](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-12.png?raw=true)
 
 4.In our example, people can receive a gift in the Chinese New Year if and only if they are younger than 18. Therefore, our Logical_test is B2<18.  
 
-  ![condition-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image13.png?raw=true)
+  ![condition-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-13.png?raw=true)
 
 5.Choose OK to confirm your syntax. 
 
- ![result-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image14.png?raw=true)
+ ![result-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-14.png?raw=true)
 
 Note:
 
