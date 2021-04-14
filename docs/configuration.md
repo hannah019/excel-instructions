@@ -27,9 +27,9 @@ This page will give a gentle introduction to navigating Excel - namely the splas
 ## Splash page
 
 
- When you launch Excel, you are met with the following page: 
+ When you launch Excel, you are met with the following page:
  
- ![splash page](https://github.com/Ryanwo1/Rykyha/blob/48e237b8699b45b5360eb95e392d0d15108b76a6/assets/images/navigation_image1.png?raw=true)
+ ![splash page](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/navigation_image1.png?raw=true)
     
 The top bar allows you to quickly create a new document. The first option on the left will create a new blank spreadsheet, and the options to the right are a basic Excel introduction (recommended for absolute beginners) and tutorials for various Excel features. Clicking on More templates will provide you with various skeleton files - handy when you want to quickly launch many kinds of charts and graphs.
     
@@ -41,11 +41,11 @@ Pinned allows you to access files that you have pinned. Pinning a file marks it 
     
 To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list".
 
-![right click to pin](https://github.com/Ryanwo1/Rykyha/blob/bde419d089a41b70f31dfd2b6aee0a783cfdf703/assets/images/navigation_image2.png?raw=true)
+![right click to pin]((https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/navigation_image2.png?raw=true)
  
  Your file will now immediately appear under the Pinned tab.
  
-![pinned tab selected](https://github.com/Ryanwo1/Rykyha/blob/1b55d1cd19cf4b5434d46e16ffb19f29ebed6a2d/assets/images/navigation_image3.png?raw=true)
+![pinned tab selected](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/navigation_image3.png?raw=true)
     
 Shared with Me will show you documents that have been specifically shared with you. This allows you to more easily sort out documents that are part of a team effort.
     
