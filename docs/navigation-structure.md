@@ -109,8 +109,7 @@ Beside AutoSum, users are also able to insert Excel functions from the comprehen
 
 5.Choose OK to confirm your syntax. 
 
-  ![click-ok](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image14.png?raw=true)
-    ![result-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image15.png?raw=true)
+ ![result-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image14.png?raw=true)
 
 Note:
 
