@@ -1,15 +1,13 @@
 ---
 layout: default
-title: Configuration
+title: Navigation and View Tab
 nav_order: 2
 ---
 
-# Configuration
+# Navigation and View Tab
 {: .no_toc }
 
-
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
-{: .fs-6 .fw-300 }
+{: .fs-4 .fw-200 }
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -20,179 +18,111 @@ Just the Docs has some specific configuration parameters that can be defined in 
 ---
 
 
-View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
-
-
-## Site logo
+## Navigation introduction
 
 ```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
+This page will give a gentle introduction to navigating Excel - namely the splash page and home page.
 ```
 
-## Search
+## Splash page
+
+
+ When you launch Excel, you are met with the following page: 
+ 
+ ![splash page](https://github.com/Ryanwo1/Rykyha/blob/48e237b8699b45b5360eb95e392d0d15108b76a6/assets/images/navigation_image1.png?raw=true)
+    
+The top bar allows you to quickly create a new document. The first option on the left will create a new blank spreadsheet, and the options to the right are a basic Excel introduction (recommended for absolute beginners) and tutorials for various Excel features. Clicking on More templates will provide you with various skeleton files - handy when you want to quickly launch many kinds of charts and graphs.
+    
+Below the top bar you will find the search bar. The search bar is useful for finding a specific document when the name is known. 
+    
+Below the search bar are 3 options to find files when the name is not known. The first is Recent. Recent shows you your mostly recently used files, in descending order. Clicking on More workbooks will allow you to go back even further in time.
+    
+Pinned allows you to access files that you have pinned. Pinning a file marks it as one of your favourites and allows you to quickly access it next time. Pinning is a great option when you won't use a file on a regular basis, but the file needs to be found quickly and easily when it is needed. 
+    
+To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list".
+
+![right click to pin](https://github.com/Ryanwo1/Rykyha/blob/bde419d089a41b70f31dfd2b6aee0a783cfdf703/assets/images/navigation_image2.png?raw=true)
+ 
+ Your file will now immediately appear under the Pinned tab.
+ 
+![pinned tab selected](https://github.com/Ryanwo1/Rykyha/blob/1b55d1cd19cf4b5434d46e16ffb19f29ebed6a2d/assets/images/navigation_image3.png?raw=true)
+    
+Shared with Me will show you documents that have been specifically shared with you. This allows you to more easily sort out documents that are part of a team effort.
+    
+
+## Home
+
+The Home tab is the default tab when you launch Excel. If you wish to return to it, simply look at the top left of the Splash page. Home the very first tab.
+
+
+## New
+
+The New tab is located on the upper-left side of the splash page, below the Home tab. The New tab is used when you wish to create a brand-new document. You are able to create more than just a blank document:  the New tab will provide you with several template options. Should you desire a template that isn't under the new tab, you can use the search bar to search for a more specialized template. Excel even provides suggested search terms to get you started.
+
+## Open
+
+Open is on the splash page, on the upper-left side. Open can be found directly under New. Open allows you to open a folder or workspace by finding it manually on your computer. 
+Clicking on Browse will open up your Explorer, where you can navigate your Computer's file hierarchy and manually select the document you wish to open.
+
+The Open tab even supports opening documents that are Cloud-based (stored on the internet, not physically on your machine)
+
+## Info
 
 ```yaml
-# Enable or disable the site search
-# Supports true (default) or false
-search_enabled: true
-
-search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
-  heading_level: 2
-  # Maximum amount of previews per search result
-  # Default: 3
-  previews: 3
-  # Maximum amount of words to display before a matched word in the preview
-  # Default: 5
-  preview_words_before: 5
-  # Maximum amount of words to display after a matched word in the preview
-  # Default: 10
-  preview_words_after: 10
-  # Set the search token separator
-  # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
-  tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
-  rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
-  # Supports true or false (default)
-  button: false
+The info tab does much more than simply provide info and deserves an investigation!
 ```
 
-## Aux links
+The info tab's primary purpose is to provide information about the document, as the name suggests.
 
-```yaml
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
+The right side of the Info tab will tell you when the document was created, who created it, and when the document was last changed.
+It also tells you the size of the file and allows you to categorize your file.
 
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
-```
+**The info tab has its own important functionalities, however:**
 
-## Heading anchor links
+- The Protect Workbook option will control who can make what changes on your file. If you do not use this feature, anyone who has access to viewing the document can make changes to it. Someone can (through accident or through malice) erase all your data and hard-work!
+- Inspect Workbook looks over your shoulder and protects you from things you might have missed. For example, Inspect Workbook can tell you when your file will leak personal information, or if your Excel file will not be compatible with different versions of Excel.
+- Version History is Excel's internal version of version control. If you make a change that you want to revert (wrong data or the file stopped working after a change) then Version History will help you go back to an earlier version. **Note that you must sign in for your change history to be logged**
+- Manage Workbooks deals with current and very recent Excel files. It will allow you to recover or delete current unsaved workbooks. Note that unsaved files will not be accessable for very long before they are lost forever, if you need to keep a file then save it to guarantee you will be able to access it in the future.
+- Browser view options control how your Excel file will look on internet browsers as well as control which cells can be modified via a broswer.                       - 
 
-```yaml
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false
-heading_anchors: true
-```
 
-## Footer content
 
-```yaml
-# Footer content
-# appears at the bottom of every page's main content
-# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
-markup / liquid-based content.
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+## Save / Save As
 
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+Clicking on Save will quickly save the document, with no further action required on your part. The file will be saved in the same place with the same name as the previous version.
 
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/pmarsceill/just-the-docs" # the github URL for your repo
-gh_edit_branch: "master" # the branch that your docs is served from
-# gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
-```
+Save as allows you to save the document in a new place or with a new name. Both the new version and the previous versions will exist as 2 separate documents after selecting "Save As"
 
-_note: `footer_content` is deprecated, but still supported. For a better experience we have moved this into an include called `_includes/footer_custom.html` which will allow for robust markup / liquid-based content._
+## Print
 
-- the "page last modified" data will only display if a page has a key called `last_modified_date`, formatted in some readable date format
-- `last_edit_time_format` uses Ruby's DateTime formatter; see examples and more information [at this link.](https://apidock.com/ruby/DateTime/strftime)
-- `gh_edit_repository` is the URL of the project's GitHub repository
-- `gh_edit_branch` is the branch that the docs site is served from; defaults to `master`
-- `gh_edit_source` is the source directory that your project files are stored in (should be the same as [site.source](https://jekyllrb.com/docs/configuration/options/))
-- `gh_edit_view_mode` is `"tree"` by default, which brings the user to the github page; switch to `"edit"` to bring the user directly into editing mode
+Print allows you to send your files to a printer. On this tab you can also change options for printing (printing specific pages, printing single of double sided, adjusting the margins etc.)
 
-## Color scheme
+The Print tab does not only convert physical printing, it also includes functions such as "print to .pdf" which will convert your Excel file to a .pdf and then save it. This is an easy and convenient way of converting your file format.
 
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+## Share
 
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+The Share tab allows you to share your Excel files with another user digitally. Think of it as a link, like to a website.
 
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
+## Export
 
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
+Export is another way of allowing you to create a .pdf/xps document. This tab also allows you to change the file format of the current document.
 
-## Google Analytics
+## Publish
 
-```yaml
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-ga_tracking: UA-5555555-55
-ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
-```
+Publish will Publish your document to Power BI, a business analytics tool made by Microsoft. To use this feature, you must be signed into your Power BI account. More information is available in the Troubleshooting section
 
-## Document collections
+## Close
 
-By default, the navigation and search include normal [pages](https://jekyllrb.com/docs/pages/).
-Instead, you can also use [Jekyll collections](https://jekyllrb.com/docs/collections/) which group documents semantically together.
+Close will close the current file. Be careful pressing this tab because there is no prompt and the file closes immediately.
 
-For example, put all your documentation files in the `_docs` folder and create the `docs` collection:
-```yaml
-# Define Jekyll collections
-collections:
-  # Define a collection named "docs", its documents reside in the "_docs" directory
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
+## Account
 
-just_the_docs:
-  # Define which collections are used in just-the-docs
-  collections:
-    # Reference the "docs" collection
-    docs:
-      # Give the collection a name
-      name: Documentation
-      # Exclude the collection from the navigation
-      # Supports true or false (default)
-      nav_exclude: false
-      # Exclude the collection from the search
-      # Supports true or false (default)
-      search_exclude: false
-```
+Account provides information about your Microsoft 365 account. You can edit your privacy and change Excel visual themes and backgrounds. The Account tab also provides updates about Microsoft products (Excel, Word and Powerpoint, among others)
 
-You can reference multiple collections.
-This creates categories in the navigation with the configured names.
-```yaml
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-  tutorials:
-    permalink: "/:collection/:path/"
-    output: true
 
-just_the_docs:
-  collections:
-    docs:
-      name: Documentation
-    tutorials:
-      name: Tutorials
-```
+## Feedback
 
+Feedback allows you to tell Microsoft whether you like or dislike a specific feature. It also allows you to write to Microsoft if you want to suggest a specific feature.
+
+## Options
+Options provides an entire suite of configurations. If an issue wasn't covered above, there's a good chance that it's in options.
