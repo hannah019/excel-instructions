@@ -23,7 +23,7 @@ In Excel, functions must be written in a specific way for the system to read and
 
 Arguments, not as straightforward as equals sign and function name, might be a bit confused. One or more arguments are required in a function, and the positions of needed values are in the bracket.
 
-![average-function](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image1.png?raw=true)
+![average-function](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image1.png?raw=true)
  For example, this function is to calculate the average from cell A1 to cell A10.
 
 ---
@@ -34,15 +34,15 @@ Many people prefer to edit their own formulas to calculate the values in their o
 
 1.Click on the cell where you want to get the value. In this case, we choose B5 for instance. 
 
-![click-cell](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image2.png?raw=true)
+![click-cell](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image2.png?raw=true)
 
 2.Type the formula “=A1*A2+A3”. 
 
-![type-formula](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image3.png?raw=true "starting window")
+![type-formula](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image3.png?raw=true)
 
 3.Press “enter”, then the value of this formula is in B5. Also, the formula will still be presented in the bar in the top right. 
 
-![enter-to-see](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image4.png?raw=true)
+![enter-to-see](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image4.png?raw=true)
 
 Note: 
 
@@ -63,22 +63,22 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
   - MIN: Find the minimum value in the whole arguments.    
   - AutoSum:
 
-![auto-sum](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image5.png?raw=true)
+![auto-sum](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image5.png?raw=true)
 
   AutoSum is most frequently used icon for many Excel users because it contains the most popular functions in Excel. So, how can we use that? 
   
   1.Choose the right cells as your arguments. In this example, we have to choose from B2 to B6. 
   
-  ![choose-cells](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions_image6.png?raw=true)
+  ![choose-cells](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image6.png?raw=true)
 
   2.Click the  on the right of AutoSum and select which specific function you need. In this example, we choose function Max to find the greatest numerical values       in the argument. 
   
-![click-autosum](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image7.png?raw=true)
- ![choose-max](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image8.png?raw=true)
+![click-autosum](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image7.png?raw=true)
+ ![choose-max](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image8.png?raw=true)
 
   3.The maximum numerical value is automatically shown under the last cell of the argument (B7) which is highlighted in yellow. 
   
-  ![maximum-value](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image9.png?raw=true)
+  ![maximum-value](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image9.png?raw=true)
 
   Note:  
     There is no need to enter “=” before using AutoSum because everything has been automatically set up. The only thing the user is required to make sure is the       cells of values in the argument. 
@@ -93,24 +93,24 @@ Beside AutoSum, users are also able to insert Excel functions from the comprehen
 
 1.Click formulas, and then find “Insert Function” in the very left.  
 
- ![click-formulas](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image10.png?raw=true)
+ ![click-formulas](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image10.png?raw=true)
 
 2.Click OK to choose IF and carefully read the syntax of this function. In other words, make sure you know how to write this function correctly and list all the conditions needed to operate it.    
 
-  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image11.png?raw=true)
+  ![select-if](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image11.png?raw=true)
 
 3.List all the conditions needed in the blank. 
 
-  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image12.png?raw=true)
+  ![list-conditions](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image12.png?raw=true)
 
 4.In our example, people can receive a gift in the Chinese New Year if and only if they are younger than 18. Therefore, our Logical_test is B2<18.  
 
-  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image13.png?raw=true)
+  ![condition-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image13.png?raw=true)
 
 5.Choose OK to confirm your syntax. 
 
-  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image14.png?raw=true)
-    ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image15.png?raw=true)
+  ![click-ok](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image14.png?raw=true)
+    ![result-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image15.png?raw=true)
 
 Note:
 
