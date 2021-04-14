@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Customization
+title: Data Analysis
 nav_order: 6
 ---
 
-# Customization
+# Data Analysis
 {: .no_toc }
+
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -14,102 +15,92 @@ nav_order: 6
 {:toc}
 
 ---
+Microsoft Excel has become one of the most widely used software in all the industries. And data analysis is one of the most important functionalities in Excel which includes sorting, conditional formatting, charts and so on.
 
-## Color schemes
-{: .d-inline-block }
+## Sorting
 
-New
-{: .label .label-green }
+### Sort Sheet or sort range
 
-Just the Docs supports two color schemes: light (default), and dark.
+Sort sheet means when we sort a category of values according to a specific pattern, all other correlated values will be moved because of it.
 
-To enable a color scheme, set the `color_scheme` parameter in your site's `_config.yml` file:
+![sort-by-number](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image1.png?raw=true)
+![sort-by-name](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image2.png?raw=true)
 
-#### Example
-{: .no_toc }
+In the original worksheet, all the information was sorted by the “Homeroom” column. However, if we sort the whole sheet again alphabetically by the “Last Name” of people, then not only the order of “Last Name” did change, but information in other columns which is related to this name also moves. 
 
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+Sort range means we only sort a part of the cells in a sheet, and it will be convenient when there are a few different tables in the same worksheet. 
 
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+![before-sorting](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image3.png?raw=true)
+![after-sorting](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image4.png?raw=true)
 
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
+There are more than 1 table in the sheet, so we only want to sort the “Total Orders (by Grade)” on the right. Then after sorting range alphabetically by “Class”, all the cells of “Payment Method” on the left will never be affected. 
 
-## Custom schemes
+## Insturctions
+### Sort Sheet
 
-### Define a custom scheme
+Goal: Sort the whole sheet alphabetically by “Last Name”.
 
-You can add custom schemes.
-If you want to add a scheme named `foo` (can be any name) just add a file `_sass/color_schemes/foo.scss` (replace `foo` by your scheme name) 
-where you override theme variables to change colors, fonts, spacing, etc.
+1.Select any cells in the “Last Name” column. For instance, we choose C2 this time.
 
-Available variables are listed in the [_variables.scss](https://github.com/pmarsceill/just-the-docs/tree/master/_sass/support/_variables.scss) file.
+![select-cells](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image5.png?raw=true)
 
-For example, to change the link color from the purple default to blue, include the following inside your scheme file:
+2.Find “Data” on the top of the menu, and click the “A-Z” command to rank names from initial A to initial Z. 
 
-#### Example
-{: .no_toc }
+![click-data-sort](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image6.png?raw=true)
+ 
+3.The result has been presented below. 
 
-```scss
-$link-color: $blue-000;
-```
+![result](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image7.png?raw=true)
 
-_Note:_ Editing the variables directly in `_sass/support/variables.scss` is not recommended and can cause other dependencies to fail.
-Please use scheme files.
+### Sort range
 
-### Use a custom scheme
+Goal: Sort the number of “Orders” increasingly only in table “Total orders (by Grade)”.
 
-To use the custom color scheme, only set the `color_scheme` parameter in your site's `_config.yml` file:
-```yaml
-color_scheme: foo
-```
+1.Select all the values in “Class” and “Orders” columns. 
 
-### Switchable custom scheme
+![select-class-orders](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image8.png?raw=true)
 
-If you want to be able to change the scheme dynamically, for example via javascript, just add a file `assets/css/just-the-docs-foo.scss` (replace `foo` by your scheme name)
-with the following content:`
+2.Find “Data” on the top of the menu, and click the “sort” command. 
 
-{% raw %}
-    ---
-    ---
-    {% include css/just-the-docs.scss.liquid color_scheme="foo" %}
-{% endraw %}
+![click-data-sort](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image9.png?raw=true)
 
-This allows you to switch the scheme via the following javascript.
+3.Click the ![small-arrow](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image10.png?raw=true) in “sort by” category and choose “Orders”. 
 
-```js
-jtd.setTheme('foo');
-```
+![choose-orders](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image11.png?raw=true)
 
-## Override and completely custom styles
+4.Choose “Cell values” and “Smallest to Largest” separately. 
 
-For styles that aren't defined as variables, you may want to modify specific CSS classes.
-Additionally, you may want to add completely custom CSS specific to your content.
-To do this, put your styles in the file `_sass/custom/custom.scss`.
-This will allow for all overrides to be kept in a single file, and for any upstream changes to still be applied.
+![choose-operations](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image12.png?raw=true)
 
-For example, if you'd like to add your own styles for printing a page, you could add the following styles.
+5.Confirm all your operations by clicking OK to see the result below. 
 
-#### Example
-{: .no_toc }
+![click-ok](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image13.png?raw=true)
 
-```scss
-// Print-only styles.
-@media print {
-  .side-bar, .page-header { display: none; }
-  .main-content { max-width: auto; margin: 1em;}
-}
-```
+![result](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image14.png?raw=true)
+
+### Conditional Formatting
+
+Conditional formatting is a functionality which allows users to format cells which meet some specific criteria. Conditional formatting enables users to do the following things. It is able to work as a reminder by asking people to pay attention to some important data. In addition, it can make some big data more visible so that these complicated values can be understood more easily. In this example, we are going to apply conditional formatting rules, so that the percentage of anyone which is greater than 100% is shown in green. 
+
+1.Select all the values in the “Percentage” column.
+
+![click-percentage](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image15.png?raw=true)
+
+2.Click “Home” and find “Conditional formatting”. Then Choose the first “Highlight Cell Rules” -> “Greater Than”.  
+
+![conditional-formatting](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image16.png?raw=true)
+
+3.Enter “100%” into the blanck in the left under the text “Format cells that are GREATER THAN”. 
+
+![enter-100%](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image17.png?raw=true)
+
+4.Click  in the right blanck after text “with” and find “Green Fill with Dark Green Text”.   
+
+![Green-Fill-with-Dark-Green-Text](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image18.png?raw=true)
+
+5.Confirm all the choices by clicking the “OK”, and the final result is shown in below.
+
+![click-ok](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image19.png?raw=true)
+![result](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image20.png?raw=true)
+
+Now, you know some basic knowledge about how to analyze data by using Excel. However, the functionalities of sorting and conditional formatting are not limited to the content mentioned above. We can still explore them by ourselves to analyze the data in a more personalized way.  
