@@ -66,7 +66,7 @@ Here's an example of a search for a template that will help us track our monthly
 
 Press enter and your search results will be ready.
 
-![part 2 select custom template based on search results](https://github.com/hannah019/excel-instructions/blob/48b3d1cfa5690fe5300d1b1d8b1715a3f2eb5091/assets/images/navigation_image6.png)
+![part 2 select custom template based on search results](https://github.com/hannah019/excel-instructions/blob/48b3d1cfa5690fe5300d1b1d8b1715a3f2eb5091/assets/images/navigation_image6.png?raw=true)
 
 ## Open
 
