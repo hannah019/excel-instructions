@@ -111,6 +111,8 @@ Excel has many types and styles of graphs and charts to analyze your data. For i
 
 Here we have some data for the position in meters of a ball thrown up vertically in the air as time goes by. We have three data columns in this case: Time, Position-exp (expected), and Position-equation. We have two sets of data: Time and Position-exp, and Time and Position-equation. We want to display both on the same scatter plot.
 
+![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-1.PNG?raw=true)
+
 To access graphs and charts, select the insert tab and select the desired chart icon as shown. A blank box will appear on your spreadsheet. This is because there is no data in it.
 
 The next step is to tell Excel where our data is located in the spreadsheet. Right-click the blank box and select “Select Data…”. A dialog box will appear as shown. 
