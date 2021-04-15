@@ -35,7 +35,7 @@ Sort range means we only sort a part of the cells in a sheet, and it will be con
 
 There are more than 1 table in the sheet, so we only want to sort the “Total Orders (by Grade)” on the right. Then after sorting range alphabetically by “Class”, all the cells of “Payment Method” on the left will never be affected. 
 
-## Insturctions
+## Instructions
 ### Sort Sheet
 
 Goal: Sort the whole sheet alphabetically by “Last Name”.
