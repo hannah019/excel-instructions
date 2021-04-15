@@ -143,3 +143,5 @@ It is extremely important to study the syntax of the function you want to use.
   
 Now you know how to flexibly apply functions in Excel. The key of this task is to practice more and gradually get familiar with the syntax.  
 
+If you are having trouble, see [Troubleshooting](https://hannah019.github.io/excel-instructions/docs/index-test/)
+
