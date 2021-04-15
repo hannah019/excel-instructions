@@ -50,14 +50,14 @@ To pin a file, find it (either through the Search bar or through the Recent tab)
 Shared with Me will show you documents that have been specifically shared with you. This allows you to more easily sort out documents that are part of a team effort.
     
 
-## Home
+### Home
 
 The Home tab is the default tab when you launch Excel. If you wish to return to it, simply look at the top left of the Splash page. Home the very first tab.
 
 ![home tab highlighted in top left](https://github.com/hannah019/excel-instructions/blob/0bc88c2ce9c5050c778fb2b0848068713f35fdbe/assets/images/navigation_image4.png?raw=true)
 
 
-## New
+### New
 
 The New tab is located on the upper-left side of the splash page, below the Home tab. The New tab is used when you wish to create a brand-new document. You are able to create more than just a blank document:  the New tab will provide you with several template options. Should you desire a template that isn't under the new tab, you can use the search bar to search for a more specialized template. Excel even provides suggested search terms to get you started.
 
@@ -68,14 +68,14 @@ Press enter and your search results will be ready.
 
 ![part 2 select custom template based on search results](https://github.com/hannah019/excel-instructions/blob/48b3d1cfa5690fe5300d1b1d8b1715a3f2eb5091/assets/images/navigation_image6.png?raw=true)
 
-## Open
+### Open
 
 Open is on the splash page, on the upper-left side. Open can be found directly under New. Open allows you to open a folder or workspace by finding it manually on your computer. 
 Clicking on Browse will open up your Explorer, where you can navigate your Computer's file hierarchy and manually select the document you wish to open.
 
 The Open tab even supports opening documents that are Cloud-based (stored on the internet, not physically on your machine)
 
-## Info
+### Info
 
 ```yaml
 The info tab does much more than simply provide info and deserves an investigation!
@@ -98,47 +98,47 @@ It also tells you the size of the file and allows you to categorize your file.
 
 
 
-## Save / Save As
+### Save / Save As
 
 Clicking on Save will quickly save the document, with no further action required on your part. The file will be saved in the same place with the same name as the previous version.
 
 Save As allows you to save the document in a new place or with a new name. Both the new version and the previous versions will exist as 2 separate documents after selecting "Save As"
 
-## Print
+### Print
 
 Print allows you to send your files to a printer. On this tab you can also change options for printing (printing specific pages, printing single of double sided, adjusting the margins etc.)
 
 The Print tab does not only convert physical printing, it also includes functions such as "print to .pdf" which will convert your Excel file to a .pdf and then save it. This is an easy and convenient way of converting your file format.
 
-## Share
+### Share
 
 The Share tab allows you to share your Excel files with another user digitally. Think of it as similar to a link to a website.
 
-## Export
+### Export
 
 Export is another way of allowing you to create a .pdf/xps document. This tab also allows you to change the file format of the current document.
 
-## Publish
+### Publish
 
 Publish will Publish your document to Power BI, a business analytics tool made by Microsoft. To use this feature, you must be signed into your Power BI account.
 
 ![link power bi account](https://github.com/hannah019/excel-instructions/blob/caadbcf471cad7bf013eb2983817a8a4abaebada/assets/images/navigation_image9.png?raw=true)
 
 
-## Close
+### Close
 
 Close will close the current file. Be careful pressing this tab because there is no prompt and the file closes immediately.
 
-## Account
+### Account
 
 Account provides information about your Microsoft 365 account. You can edit your privacy and change Excel visual themes and backgrounds. The Account tab also provides updates about Microsoft products (Excel, Word and Powerpoint, among others)
 
 
-## Feedback
+### Feedback
 
 Feedback allows you to tell Microsoft whether you like or dislike a specific feature. It also allows you to write to Microsoft if you want to suggest a specific feature.
 
-## Options
+### Options
 Options provides an entire suite of configurations. If an issue wasn't covered above, there's a good chance that it's in options.
 
 If you are having trouble, see [Troubleshooting](https://hannah019.github.io/excel-instructions/docs/index-test/)
