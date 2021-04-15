@@ -111,16 +111,30 @@ Excel has many types and styles of graphs and charts to analyze your data. For i
 
 Here we have some data for the position in meters of a ball thrown up vertically in the air as time goes by. We have three data columns in this case: Time, Position-exp (expected), and Position-equation. We have two sets of data: Time and Position-exp, and Time and Position-equation. We want to display both on the same scatter plot.
 
-![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-1.PNG?raw=true)
+![chart-data](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-1.PNG?raw=true)
 
-To access graphs and charts, select the insert tab and select the desired chart icon as shown. A blank box will appear on your spreadsheet. This is because there is no data in it.
+To access graphs and charts, select the insert tab and select the desired chart icon as shown. 
+A blank box will appear on your spreadsheet. This is because there is no data in it.
+
+![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-2.PNG?raw=true)
 
 The next step is to tell Excel where our data is located in the spreadsheet. Right-click the blank box and select “Select Data…”. A dialog box will appear as shown. 
-Under Legend Entries (Series), select “Add” to add your data sets. Our first data set is Time and Position-exp. 
 
+
+![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-3.PNG?raw=true)
+
+Under Legend Entries (Series), select “Add” to add your data sets. Our first data set is Time and Position-exp. 
 This will trigger another dialog box.
+
+![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-4.PNG?raw=true)
+
 With the typing cursor over “Series X values”, drag and select the desired values for the x-axis as shown. Do the same for the Y values (Position-exp), but remove “{1}” which appears by default. Then, give your data set a name and press “OK” to finish. We now have our first set of data.
 
+![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-6.PNG?raw=true)
+![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-7.PNG?raw=true)
+
 Repeat the same process with the second data set, Time and Position-equation. When finished, it may look like this.
+
+![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-8.PNG?raw=true)
 
 Excel gives you many options to format your chart. Click on the x-axis, y-axis, or data points themselves and right-click to adjust and format. You can change colours, adjust size, adjust positioning, add Trendlines (line of best fit), add labels, etc.
