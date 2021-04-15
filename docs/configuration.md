@@ -92,7 +92,7 @@ It also tells you the size of the file and allows you to categorize your file.
 ![protect workbook selected](https://github.com/hannah019/excel-instructions/blob/ac1ea39c96afd81148ae73936f4fcb71662e228e/assets/images/navigation_image7.png?raw=true)
 - Inspect Workbook looks over your shoulder and protects you from things you might have missed. For example, Inspect Workbook can tell you when your file will leak personal information, or if your Excel file will not be compatible with different versions of Excel.
 - Version History is Excel's internal version of version control. If you make a change that you want to revert (wrong data or the file stopped working after a change) then Version History will help you go back to an earlier version. **Note that you must sign in for your change history to be logged**
-- ![turn on version history to track change history](https://github.com/hannah019/excel-instructions/blob/21b2cdccaf3af5af5a93e1b39276c1746b800de9/assets/images/navigation_image8.png?raw=true)
+![turn on version history to track change history](https://github.com/hannah019/excel-instructions/blob/21b2cdccaf3af5af5a93e1b39276c1746b800de9/assets/images/navigation_image8.png?raw=true)
 - Manage Workbooks deals with current and very recent Excel files. It will allow you to recover or delete current unsaved workbooks. Note that unsaved files will not be accessable for very long before they are lost forever, if you need to keep a file then save it to guarantee you will be able to access it in the future.
 - Browser view options control how your Excel file will look on internet browsers as well as control which cells can be modified via a broswer.                    
 
