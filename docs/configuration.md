@@ -126,3 +126,5 @@ Feedback allows you to tell Microsoft whether you like or dislike a specific fea
 
 ## Options
 Options provides an entire suite of configurations. If an issue wasn't covered above, there's a good chance that it's in options.
+
+If you are having trouble, see [Troubleshooting](https://hannah019.github.io/excel-instructions/docs/index-test/)
