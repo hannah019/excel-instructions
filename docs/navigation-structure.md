@@ -66,16 +66,16 @@ So far, notice that values in a formula are shown with the cell location, that i
 
 ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-1.PNG?raw=true)
 
-In this example, the formula tells us we are simply multiplying three values. However, looking at the formula alone, it's not known what the result means.
+1. In this example, the formula tells us we are simply multiplying three values. However, looking at the formula alone, it's not known what the result means.
 The solution is to give the cells a name. You can do this by right-clicking on a cell and selecting “Define Name…”. The following dialog box will appear.
 
 ![defined-names-dialog-box](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-2.PNG?raw=true)
 
-In the dialog box, enter the desired name for your cell value. When complete, the formula now consists of the name of the values, “Length”, “Width”, and “Height”. From this, another user can quickly deduce that whoever wrote the formula wanted to find the volume of a rectangular prism. As you can see, the formula is much more intuitive and easier to understand, especially in cases where formulas can have 10 or more cells. 
+2. In the dialog box, enter the desired name for your cell value. When complete, the formula now consists of the name of the values, “Length”, “Width”, and “Height”. From this, another user can quickly deduce that whoever wrote the formula wanted to find the volume of a rectangular prism. As you can see, the formula is much more intuitive and easier to understand, especially in cases where formulas can have 10 or more cells. 
 
 ![formula-with-defined-names](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-3.PNG?raw=true)
 
-This feature also works for arrays as well. Simply drag and select an array of cells, right-click, and select “Define Name…” to name your array.
+3. This feature also works for arrays as well. Simply drag and select an array of cells, right-click, and select “Define Name…” to name your array.
 
 
 ## Apply Function Library
