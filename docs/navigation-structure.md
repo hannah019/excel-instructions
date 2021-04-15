@@ -64,7 +64,7 @@ What if we want to apply the same formula to the same type of data, but there ar
 
 So far, notice that values in a formula are shown with the cell location, that is, its address. However, the address (e.g. B2) does not tell you anything about the meaning of the value. This makes the formula hard to understand for other spreadsheet users at first glance. 
 
-![unnamed variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined names 1.png?raw=true)
+![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-1.png?raw=true)
 
 In this example, the formula tells us we are simply multiplying three values. However, we are not sure what the result means.
 The solution is to give the cells a name.
