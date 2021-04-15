@@ -5,7 +5,7 @@ nav_order: 5
 ---
 
 
-# Foumulas and Function
+# Formulas and Functions
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -17,11 +17,11 @@ nav_order: 5
 Functions in Excel are some defined formulas to help users efficiently calculate their values and even analyze the data. A comprehensive function library is included in Excel where people can quickly find many popular ones like sum, average, maximum, minimum and so on. The goal of this section is to explain how to enter formulas and calculate the values of cells by applying existing functions.  
 
 
-## Introduction of Parts of Functions
+## Introduction to Parts of Functions
 
 In Excel, functions must be written in a specific way for the system to read and operate user’s commands, so a function has to be shown as below. Every single function mainly consists of three parts: equals sign, function name and arguments.
 
-Arguments, not as straightforward as equals sign and function name, might be a bit confused. One or more arguments are required in a function, and the positions of needed values are in the bracket.
+Arguments are not as straightforward as equals sign and function name, so they might seem confusing. One or more arguments are required in a function, and the positions of needed values are in the bracket.
 
 ![average-function](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image1.png?raw=true)
  For example, this function is to calculate the average from cell A1 to cell A10.
@@ -51,6 +51,24 @@ Note:
   -Do not forget to type “=” in front of every function for Excel newbies.    
 
 ---
+
+## Arrays
+
+A key purpose of Excel is to work with many values. A group of cells is called an array. This can be a row, a column, or a table (row and column). Some functions that calculate many values, such as SUM(), accept arrays as an input. The array has is identified by its starting cell and ending cell, separated by the colon. Notice that Excel uses letters for columns and numbers for rows.
+
+## Applying your formula to multiple data sets
+
+What if we want to apply the same formula to the same type of data, but there are multiple examples of such data? This is done by hovering over a cell with formula as shown, and dragging across to adjacent cells. This shifts the arguments in the formula to corresponding respective cells in the direction dragged. However, what if you want to shift some arguments but not others? We use the “$” symbol in the cell name. A shortcut is to select the cell and press F4.
+
+## Defined Names
+
+So far, notice that values in a formula are shown with the cell location, that is, its address. However, the address (e.g. B2) does not tell you anything about the meaning of the value. This makes the formula hard to understand for other spreadsheet users at first glance. In this example, the formula tells us we are simply multiplying three values. However, we are not sure what the result means.
+The solution is to give the cells a name.
+
+You can do this by right-clicking on a cell and selecting “Define Name…”. In the dialog box, enter the desired name for your cell value. When complete, the formula now consists of the name of the values, “Length”, “Width”, and “Height”. From this, another user can quickly deduce that whoever wrote the formula wanted to find the volume of a rectangular prism. As you can see, the formula is much more intuitive and easier to understand, especially in cases where formulas can have 10 or more cells. 
+
+This feature also works for arrays. Simply drag and select an array of cells, right-click, and select “Define Name…” to name your array.
+
 
 ## Apply Function Library
 
@@ -116,3 +134,4 @@ Note:
 It is extremely important to study the syntax of the function you want to use. 
   
 Now you know how to flexibly apply functions in Excel. The key of this task is to practice more and gradually get familiar with the syntax.  
+
