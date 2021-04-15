@@ -54,6 +54,8 @@ Shared with Me will show you documents that have been specifically shared with y
 
 The Home tab is the default tab when you launch Excel. If you wish to return to it, simply look at the top left of the Splash page. Home the very first tab.
 
+![home tab highlighted in top left](https://github.com/hannah019/excel-instructions/blob/0bc88c2ce9c5050c778fb2b0848068713f35fdbe/assets/images/navigation_image4.png?raw=true)
+
 
 ## New
 
