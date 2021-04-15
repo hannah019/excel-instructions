@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Foumulas and Function
+title: Formulas and Function
 nav_order: 5
 ---
 
