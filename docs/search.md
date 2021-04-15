@@ -4,7 +4,7 @@ title: Glossary
 nav_order: 7
 ---
 
-# Search
+# Glossary
 {: .no_toc }
 
 ## Table of contents
@@ -14,6 +14,20 @@ nav_order: 7
 {:toc}
 
 ---
+
+Here you will find definitions to technical terms you may encounter throughout the guide.
+
+•	document - 
+•	file – 
+•	argument – the actual values passed into a function
+•	parameter – the values the function is designed to accept
+•	function - 
+•	formula - 
+•	number -
+•	array –
+•	logical test - 
+
+
 
 Just the Docs uses [lunr.js](http://lunrjs.com) to add a client-side search interface powered by a JSON index that Jekyll generates.
 All search results are shown in an auto-complete style interface (there is no search results page).
