@@ -61,6 +61,13 @@ The Home tab is the default tab when you launch Excel. If you wish to return to 
 
 The New tab is located on the upper-left side of the splash page, below the Home tab. The New tab is used when you wish to create a brand-new document. You are able to create more than just a blank document:  the New tab will provide you with several template options. Should you desire a template that isn't under the new tab, you can use the search bar to search for a more specialized template. Excel even provides suggested search terms to get you started.
 
+Here's an example of a search for a template that will help us track our monthly food expenses:
+![search for custom template](https://github.com/hannah019/excel-instructions/blob/59ca59f1b141d4478f6b979cd1520df220a8c551/assets/images/navigation_image5.png?raw=true)
+
+Press enter and your search results will be ready.
+
+![part 2 select custom template based on search results](https://github.com/hannah019/excel-instructions/blob/48b3d1cfa5690fe5300d1b1d8b1715a3f2eb5091/assets/images/navigation_image6.png)
+
 ## Open
 
 Open is on the splash page, on the upper-left side. Open can be found directly under New. Open allows you to open a folder or workspace by finding it manually on your computer. 
