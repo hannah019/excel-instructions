@@ -112,7 +112,7 @@ The Print tab does not only convert physical printing, it also includes function
 
 ## Share
 
-The Share tab allows you to share your Excel files with another user digitally. Think of it as a link, like to a website.
+The Share tab allows you to share your Excel files with another user digitally. Think of it as similar to a link to a website.
 
 ## Export
 
@@ -120,7 +120,10 @@ Export is another way of allowing you to create a .pdf/xps document. This tab al
 
 ## Publish
 
-Publish will Publish your document to Power BI, a business analytics tool made by Microsoft. To use this feature, you must be signed into your Power BI account. More information is available in the Troubleshooting section
+Publish will Publish your document to Power BI, a business analytics tool made by Microsoft. To use this feature, you must be signed into your Power BI account.
+
+![link power bi account](https://github.com/hannah019/excel-instructions/blob/caadbcf471cad7bf013eb2983817a8a4abaebada/assets/images/navigation_image9.png?raw=true)
+
 
 ## Close
 
