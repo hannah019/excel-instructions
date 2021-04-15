@@ -62,16 +62,20 @@ What if we want to apply the same formula to the same type of data, but there ar
 
 ## Defined Names
 
-So far, notice that values in a formula are shown with the cell location, that is, its address. However, the address (e.g. B2) does not tell you anything about the meaning of the value. This makes the formula hard to understand for other spreadsheet users at first glance. 
+So far, notice that values in a formula are shown with the cell location, that is, its address. However, the address (e.g. B2) does not tell you anything about the meaning of the value. This makes the formula hard to understand for other spreadsheet users at first glance as shown below. 
 
 ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-1.PNG?raw=true)
 
-In this example, the formula tells us we are simply multiplying three values. However, we are not sure what the result means.
-The solution is to give the cells a name.
+In this example, the formula tells us we are simply multiplying three values. However, looking at the formula alone, it's not known what the result means.
+The solution is to give the cells a name. You can do this by right-clicking on a cell and selecting “Define Name…”. The following dialog box will appear.
 
-You can do this by right-clicking on a cell and selecting “Define Name…”. In the dialog box, enter the desired name for your cell value. When complete, the formula now consists of the name of the values, “Length”, “Width”, and “Height”. From this, another user can quickly deduce that whoever wrote the formula wanted to find the volume of a rectangular prism. As you can see, the formula is much more intuitive and easier to understand, especially in cases where formulas can have 10 or more cells. 
+![defined-names-dialog-box](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-2.PNG?raw=true)
 
-This feature also works for arrays. Simply drag and select an array of cells, right-click, and select “Define Name…” to name your array.
+In the dialog box, enter the desired name for your cell value. When complete, the formula now consists of the name of the values, “Length”, “Width”, and “Height”. From this, another user can quickly deduce that whoever wrote the formula wanted to find the volume of a rectangular prism. As you can see, the formula is much more intuitive and easier to understand, especially in cases where formulas can have 10 or more cells. 
+
+![formula-with-defined-names](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-3.PNG?raw=true)
+
+This feature also works for arrays as well. Simply drag and select an array of cells, right-click, and select “Define Name…” to name your array.
 
 
 ## Apply Function Library
