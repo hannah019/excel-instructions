@@ -103,5 +103,23 @@ Conditional formatting is a functionality which allows users to format cells whi
 ![click-ok](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image19.png?raw=true)
 ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image20.png?raw=true)
 
+### Charts and Graphs
 
 Now, you know some basic knowledge about how to analyze data by using Excel. However, the functionalities of sorting and conditional formatting are not limited to the content mentioned above. We can still explore them by ourselves to analyze the data in a more personalized way.  
+
+
+Excel has many types and styles of graphs and charts to analyze your data. For instructional purposes, we will demonstrate with inserting a scatter plot graph on your spreadsheet. The concept is similar for other types of graphs and charts.
+
+Here we have some data for the position in meters of a ball thrown up vertically in the air as time goes by. We have three data columns in this case: Time, Position-exp (expected), and Position-equation. We have two sets of data: Time and Position-exp, and Time and Position-equation. We want to display both on the same scatter plot.
+
+To access graphs and charts, select the insert tab and select the desired chart icon as shown. A blank box will appear on your spreadsheet. This is because there is no data in it.
+
+The next step is to tell Excel where our data is located in the spreadsheet. Right-click the blank box and select “Select Data…”. A dialog box will appear as shown. 
+Under Legend Entries (Series), select “Add” to add your data sets. Our first data set is Time and Position-exp. 
+
+This will trigger another dialog box.
+With the typing cursor over “Series X values”, drag and select the desired values for the x-axis as shown. Do the same for the Y values (Position-exp), but remove “{1}” which appears by default. Then, give your data set a name and press “OK” to finish. We now have our first set of data.
+
+Repeat the same process with the second data set, Time and Position-equation. When finished, it may look like this.
+
+Excel gives you many options to format your chart. Click on the x-axis, y-axis, or data points themselves and right-click to adjust and format. You can change colours, adjust size, adjust positioning, add Trendlines (line of best fit), add labels, etc.
