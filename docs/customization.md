@@ -139,4 +139,4 @@ Repeat the same process with the second data set, Time and Position-equation. Wh
 
 Excel gives you many options to format your chart. Click on the x-axis, y-axis, or data points themselves and right-click to adjust and format. You can change colours, adjust size, adjust positioning, add Trendlines (line of best fit), add labels, etc.
 
-[If you are having trouble, see](https://hannah019.github.io/excel-instructions/docs/index-test/)
+If you are having trouble, see [Troubleshooting](https://hannah019.github.io/excel-instructions/docs/index-test/)
