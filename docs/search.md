@@ -18,5 +18,5 @@ Here you will find definitions to technical terms you may encounter throughout t
 *	function - 
 *	formula - 
 *	number -
-*	array –
+*	array –  An array is a collection of multiple values all combined into 1 object. Combining the values into 1 object allows certain functions to be used on larger amounts of data.
 * logical test - A logical test is when Excel checks whether or not a condition is true. If the condition is true, the logical test will return true. Otherwise, it will return false.
