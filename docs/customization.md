@@ -39,11 +39,8 @@ In our case, there are more than one table in our demonstration sheet. We want t
 Goal: Sort the whole sheet alphabetically by “Last Name”.
 
 1. Select any cell in the “Last Name” column. For instance, we will choose cell C2 this time.
-
  ![select-cells](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image5.png?raw=true)
-
 2. Find the “Data” tab on the top of the menu and click the “A-Z” command as shown to rank last names that start with A to those that start with Z. 
-
  ![click-data-sort](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image6.png?raw=true)
  
 3. The result has been presented below in column C. 
