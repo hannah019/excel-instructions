@@ -41,6 +41,7 @@ Goal: Sort the whole sheet alphabetically by “Last Name”.
 2. Find the “Data” tab on the top of the menu and click the “A-Z” command as shown to rank last names that start with A to those that start with Z. 
  ![click-data-sort](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image6.png?raw=true)
 3. The result has been presented below in column C.
+ 
  ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image7.png?raw=true)
 
 ### Sort range
