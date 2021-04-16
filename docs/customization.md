@@ -60,7 +60,7 @@ Goal: Sort the number of “Orders” in increasing value only in the table, “
  ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image14.png?raw=true)
 
 
-<img src="https://github.com/hannah019/excel-instructions/raw/gh-pages/assets/images/notice-advice-logo.png" width="50" height="50" />
+<img src="https://github.com/hannah019/excel-instructions/raw/gh-pages/assets/images/notice-advice-logo.png" width="50" height="50"/>
 > Remember to save your work often, especially if you might want your data to go back to an unsorted state. Also, be mindful of any of your formulas that use values in the table that is being sorted since data has moved to different cells. Normally, Excel will compensate for this so that your formulas still output the same values before sorting.
 
 ### Conditional Formatting
@@ -81,7 +81,7 @@ Conditional formatting is a functionality which allows users to format cells acc
  
  Observe that all the entries where Percentage is over 100% is more immediately clear when it is green, than when without formatting the reader will need to read each and every number one by one.
  
-<img src="https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/notice-advice-logo.png" width="50" height="50" />
+<img src="https://github.com/hannah019/excel-instructions/raw/gh-pages/assets/images/notice-advice-logo.png" width="50" height="50"/>
 > You can clear conditional formatting (and any other kind of formatting) by clicking on the eraser symbol (a white and purple rectangle) in the Editing section under the Home tab.
 
 ### Charts and Graphs
