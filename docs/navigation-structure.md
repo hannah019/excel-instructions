@@ -100,6 +100,7 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
 ![click-autosum](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image7.png?raw=true)
  ![choose-max](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image8.png?raw=true)
 3. The maximum numerical value is automatically shown under the last cell of the argument (B7) which is highlighted in yellow. 
+  
   ![maximum-value](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image9.png?raw=true)
 
   Note:  
