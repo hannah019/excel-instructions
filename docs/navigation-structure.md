@@ -91,7 +91,7 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
 ![click-autosum](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image7.png?raw=true)
  ![choose-max](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image8.png?raw=true)
 3. The maximum numerical value is automatically shown under the last cell of the argument (B7) which is highlighted in yellow. 
-  ![maximum-value](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image9.png?raw=true)
+ ![maximum-value](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image9.png?raw=true)
 
   Note:  
     There is no need to enter “=” before using AutoSum because everything has been automatically set up. The only thing the user is required to make sure is the       cells of values in the argument. 
@@ -107,11 +107,11 @@ Beside AutoSum, users are also able to insert Excel functions from the comprehen
 1. Click formulas, and then find “Insert Function” in the very left.  
  ![click-formulas](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image10.png?raw=true)
 2. Click OK to choose IF and carefully read the syntax of this function. In other words, make sure you know how to write this function correctly and list all the conditions needed to operate it.    
-  ![select-if](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-11.png?raw=true)
+ ![select-if](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-11.png?raw=true)
 3. List all the conditions needed in the blank. 
-  ![list-conditions](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-12.png?raw=true)
+ ![list-conditions](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-12.png?raw=true)
 4. In our example, people can receive a gift in the Chinese New Year if and only if they are younger than 18. Therefore, our Logical_test is B2<18.  
-  ![condition-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-13.png?raw=true)
+ ![condition-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-13.png?raw=true)
 5. Choose OK to confirm your syntax. 
  ![result-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-14.png?raw=true)
 
