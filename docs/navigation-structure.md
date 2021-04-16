@@ -57,7 +57,8 @@ Many people prefer to design and create their own formulas to calculate the valu
 
 Note:  
 * If you are afraid of typing the position of cells wrong, you can easily click on the cells you want to select. 
-Do not forget to type “=” in front of every function for Excel.
+* Do not forget to type “=” in front of every function for Excel.
+
 ---
 
 ## Applying your formula to multiple data sets
