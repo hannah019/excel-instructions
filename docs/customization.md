@@ -48,20 +48,15 @@ Goal: Sort the whole sheet alphabetically by “Last Name”.
 
 Goal: Sort the number of “Orders” in increasing value only in the table, “Total orders (by Grade)”.
 
-1. Select all the values in “Class” and “Orders” columns. 
-
+1. Select all the values in “Class” and “Orders” columns.
  ![select-class-orders](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image8.png?raw=true)
-2. Find “Data” on the top of the menu, and click the “sort” command. 
-
+2. Find “Data” on the top of the menu, and click the “sort” command.
  ![click-data-sort](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image9.png?raw=true)
 3. Click the ![small-arrow](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image10.png?raw=true) in “sort by” category and choose “Orders”. 
- 
  ![choose-orders](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image11.png?raw=true)
 4. Choose “Cell values” and “Smallest to Largest” separately.
- 
  ![choose-operations](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image12.png?raw=true)
 5. Confirm all your operations by clicking OK to see the result below. 
- 
  ![click-ok](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image13.png?raw=true)
  ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image14.png?raw=true)
 
@@ -74,19 +69,14 @@ Goal: Sort the number of “Orders” in increasing value only in the table, “
 Conditional formatting is a functionality which allows users to format cells according to some specific criteria. It can draw attention to important trends in the data. It can also make the data more immediately clear and understandable, since varying shades of colours are more readable than texts of numbers. In this example, we are going to apply conditional formatting rules, so that the percentage of anyone which is greater than 100% is shown in green. 
 
 1. Select all the values in the “Percentage” column.
- 
  ![click-percentage](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image15.png?raw=true)
 2. Click “Home” and find “Conditional formatting”. Then Choose the first “Highlight Cell Rules” -> “Greater Than”.  
- 
  ![conditional-formatting](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image16.png?raw=true)
-3. Enter “100%” into the blanck in the left under the text “Format cells that are GREATER THAN”. 
-
+3. Enter “100%” into the blanck in the left under the text “Format cells that are GREATER THAN”.
  ![enter-100%](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image17.png?raw=true)
 4. Click  in the right blanck after text “with” and find “Green Fill with Dark Green Text”.   
- 
  ![Green-Fill-with-Dark-Green-Text](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image18.png?raw=true)
 5. Confirm all the choices by clicking the “OK”, and the final result is shown in below.
- 
  ![click-ok](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image19.png?raw=true)
  ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image20.png?raw=true)
  
