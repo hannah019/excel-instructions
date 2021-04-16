@@ -52,7 +52,7 @@ Goal: Sort the number of “Orders” in increasing value only in the table, “
  ![select-class-orders](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image8.png?raw=true)
 2. Find “Data” on the top of the menu, and click the “sort” command.
  ![click-data-sort](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image9.png?raw=true)
-3. Click the ![small-arrow](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image10.png?raw=true) in “sort by” category and choose “Orders”.            
+3. Click the icon ![small-arrow](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image10.png?raw=true) in “sort by” category and choose “Orders”.            
  ![choose-orders](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image11.png?raw=true)
 4. Choose “Cell values” and “Smallest to Largest” separately.
  ![choose-operations](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image12.png?raw=true)
