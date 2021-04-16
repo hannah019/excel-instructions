@@ -95,7 +95,7 @@ It also tells you the size of the file and allows you to categorize your file.
 
 ![turn on version history to track change history](https://github.com/hannah019/excel-instructions/blob/21b2cdccaf3af5af5a93e1b39276c1746b800de9/assets/images/navigation_image8.png?raw=true)
 - Manage Workbooks deals with current and very recent Excel files. It will allow you to recover or delete current unsaved workbooks. Note that unsaved files will not be accessable for very long before they are lost forever, if you need to keep a file then save it to guarantee you will be able to access it in the future.
-- Browser view options control how your Excel file will look on internet browsers as well as control which cells can be modified via a broswer.                    
+- Browser view options control how your Excel file will look on internet browsers as well as control which cells can be modified via a browser.                    
 
 
 
