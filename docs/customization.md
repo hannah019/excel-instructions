@@ -42,9 +42,7 @@ Goal: Sort the whole sheet alphabetically by “Last Name”.
  ![select-cells](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image5.png?raw=true)
 2. Find the “Data” tab on the top of the menu and click the “A-Z” command as shown to rank last names that start with A to those that start with Z. 
  ![click-data-sort](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image6.png?raw=true)
- 
 3. The result has been presented below in column C. 
-
  ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image7.png?raw=true)
 
 ### Sort range
@@ -52,25 +50,15 @@ Goal: Sort the whole sheet alphabetically by “Last Name”.
 Goal: Sort the number of “Orders” increasingly only in table “Total orders (by Grade)”.
 
 1. Select all the values in “Class” and “Orders” columns. 
-
  ![select-class-orders](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image8.png?raw=true)
-
 2. Find “Data” on the top of the menu, and click the “sort” command. 
-
  ![click-data-sort](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image9.png?raw=true)
-
 3. Click the ![small-arrow](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image10.png?raw=true) in “sort by” category and choose “Orders”. 
-
  ![choose-orders](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image11.png?raw=true)
-
 4. Choose “Cell values” and “Smallest to Largest” separately. 
-
  ![choose-operations](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image12.png?raw=true)
-
 5. Confirm all your operations by clicking OK to see the result below. 
-
  ![click-ok](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image13.png?raw=true)
-
  ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image14.png?raw=true)
 
 ### Conditional Formatting
@@ -78,23 +66,14 @@ Goal: Sort the number of “Orders” increasingly only in table “Total orders
 Conditional formatting is a functionality which allows users to format cells which meet some specific criteria. Conditional formatting enables users to do the following things. It is able to work as a reminder by asking people to pay attention to some important data. In addition, it can make some big data more visible so that these complicated values can be understood more easily. In this example, we are going to apply conditional formatting rules, so that the percentage of anyone which is greater than 100% is shown in green. 
 
 1. Select all the values in the “Percentage” column.
-
  ![click-percentage](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image15.png?raw=true)
-
 2. Click “Home” and find “Conditional formatting”. Then Choose the first “Highlight Cell Rules” -> “Greater Than”.  
-
  ![conditional-formatting](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image16.png?raw=true)
-
 3. Enter “100%” into the blanck in the left under the text “Format cells that are GREATER THAN”. 
-
  ![enter-100%](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image17.png?raw=true)
-
 4. Click  in the right blanck after text “with” and find “Green Fill with Dark Green Text”.   
-
  ![Green-Fill-with-Dark-Green-Text](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image18.png?raw=true)
-
 5. Confirm all the choices by clicking the “OK”, and the final result is shown in below.
-
  ![click-ok](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image19.png?raw=true)
  ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image20.png?raw=true)
 
@@ -108,29 +87,24 @@ Here we have some data for the position in meters of a ball thrown up vertically
 
 ![chart-data](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-1.PNG?raw=true)
 
-To access graphs and charts, select the insert tab and select the desired chart icon as shown. 
-A blank box will appear on your spreadsheet. This is because there is no data in it.
+1. To access graphs and charts, select the insert tab and select the desired chart icon as shown. 
+ A blank box will appear on your spreadsheet. This is because there is no data in it.
+ ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-2.PNG?raw=true)
 
-![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-2.PNG?raw=true)
-
-The next step is to tell Excel where our data is located in the spreadsheet. Right-click the blank box and select “Select Data…”. A dialog box will appear as shown. 
-
-
+2. The next step is to tell Excel where our data is located in the spreadsheet. Right-click the blank box and select “Select Data…”. A dialog box will appear as shown. 
 ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-3.PNG?raw=true)
 
-Under Legend Entries (Series), select “Add” to add your data sets. Our first data set is Time and Position-exp. 
-This will trigger another dialog box.
+3. Under Legend Entries (Series), select “Add” to add your data sets. Our first data set is Time and Position-exp. 
+ This will trigger another dialog box.
+ ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-4.PNG?raw=true)
 
-![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-4.PNG?raw=true)
+4. With the typing cursor over “Series X values”, drag and select the desired values for the x-axis as shown. Do the same for the Y values (Position-exp), but remove “{1}” which appears by default. Then, give your data set a name and press “OK” to finish. We now have our first set of data.
 
-With the typing cursor over “Series X values”, drag and select the desired values for the x-axis as shown. Do the same for the Y values (Position-exp), but remove “{1}” which appears by default. Then, give your data set a name and press “OK” to finish. We now have our first set of data.
+ ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-6.PNG?raw=true)
+ ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-7.PNG?raw=true)
 
-![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-6.PNG?raw=true)
-![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-7.PNG?raw=true)
-
-Repeat the same process with the second data set, Time and Position-equation. When finished, it may look like this.
-
-![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-8.PNG?raw=true)
+5. Repeat the same process with the second data set, Time and Position-equation. When finished, it may look like this.
+ ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-8.PNG?raw=true)
 
 Excel gives you many options to format your chart. Click on the x-axis, y-axis, or data points themselves and right-click to adjust and format. You can change colours, adjust size, adjust positioning, add Trendlines (line of best fit), add labels, etc.
 
