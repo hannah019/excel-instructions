@@ -121,6 +121,7 @@ Beside AutoSum, users are also able to insert Excel functions from the comprehen
 4. In our example, people can receive a gift in the Chinese New Year if and only if they are younger than 18. Therefore, our Logical_test is B2<18.  
   ![condition-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-13.png?raw=true)
 5. Choose OK to confirm your syntax. 
+ 
  ![result-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-14.png?raw=true)
 
 Note:
