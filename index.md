@@ -36,5 +36,5 @@ Excel is a powerful program with an extensive list of features and functionality
 
 ### Helpful Advice and Notices
 
-![advice-notice-logo](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/notice-advice-logo.png?raw=true)
+![advice-notice-logo](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/notice-advice-logo.png = 50x50)
 Throughout this guide, you may encounter many nuances and fine points in Excel's functionality. We will use this symbol to emphasize points worth considering that will make using Excel easier and prevent possible errors. 
