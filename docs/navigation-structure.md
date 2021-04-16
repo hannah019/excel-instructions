@@ -55,9 +55,9 @@ Many people prefer to design and create their own formulas to calculate the valu
 
 ![enter-to-see](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image4.png?raw=true)
 
-Note:  
-* If you are afraid of typing the position of cells wrong, you can easily click on the cells you want to select. 
-* Do not forget to type “=” in front of every function for Excel.
+<img src="https://github.com/hannah019/excel-instructions/raw/gh-pages/assets/images/notice-advice-logo.png" width="50" height="50"/>  
+> * If you are afraid of typing the position of cells wrong, you can easily click on the cells you want to select. 
+ * Do not forget to type “=” in front of every function for Excel.
 
 ---
 
@@ -104,8 +104,8 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
   
   ![maximum-value](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image9.png?raw=true)
 
-  Note:  
-    There is no need to enter “=” before using AutoSum because everything has been automatically set up. The only thing the user is required to make sure is the       cells of values in the argument. 
+<img src="https://github.com/hannah019/excel-instructions/raw/gh-pages/assets/images/notice-advice-logo.png" width="50" height="50"/>
+> There is no need to enter “=” before using AutoSum because everything has been automatically set up. The only thing the user is required to make sure is the       cells of values in the argument. 
     
  
 ---
@@ -126,9 +126,8 @@ Beside AutoSum, users are also able to insert Excel functions from the comprehen
  
  ![result-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-14.png?raw=true)
 
-Note:
-
-It is extremely important to study the syntax of the function you want to use. 
+<img src="https://github.com/hannah019/excel-instructions/raw/gh-pages/assets/images/notice-advice-logo.png" width="50" height="50"/>
+> It is extremely important to study the syntax of the function you want to use. 
   
 Now you know how to flexibly apply functions in Excel. The key of this task is to practice more and gradually get familiar with the syntax.  
 
