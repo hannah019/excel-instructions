@@ -103,7 +103,7 @@ It also tells you the size of the file and allows you to categorize your file.
 
 Clicking on Save will quickly save the document, with no further action required on your part. The file will be saved in the same place with the same name as the previous version.
 
-Save As allows you to save the document in a new place or with a new name. Both the new version and the previous versions will exist as 2 separate documents after selecting "Save As"
+Save As allows you to save the document in a new place or with a new name. Both the new version and the previous versions will exist as 2 separate documents after selecting "Save As".
 
 ### Print
 
