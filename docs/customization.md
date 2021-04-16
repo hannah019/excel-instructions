@@ -7,6 +7,7 @@ nav_order: 6
 # Data Analysis
 {: .no_toc }
 
+Data analysis is a primary function in Excel. In this section, we will show you how to make meaning and find patterns out of the raw data you have. We will show you how to sort, perform conditional formatting, and set up graphs and charts in your Excel spreadsheet.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -14,41 +15,38 @@ nav_order: 6
 1. TOC
 {:toc}
 
----
-Microsoft Excel has become one of the most widely used software in all the industries. And data analysis is one of the most important functionalities in Excel which includes sorting, conditional formatting, charts and so on.
-
 ## Sorting
 
-### Sort Sheet or sort range
+### Sort sheet or sort range
 
-Sort sheet means when we sort a category of values according to a specific pattern, all other correlated values will be moved because of it.
+To demonstrate sorting, we will use a table of data for students who bought T-shirts. There are two ways to sort your data. Sort sheet means when we sort a category of values according to a specific pattern, all other correlated values will be moved because of it. Excel can recognize the data and pattern around a given cell.
 
 ![sort-by-number](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image1.png?raw=true)
 ![sort-by-name](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image2.png?raw=true)
 
-In the original worksheet, all the information was sorted by the “Homeroom” column. However, if we sort the whole sheet again alphabetically by the “Last Name” of people, then not only the order of “Last Name” did change, but information in other columns which is related to this name also moves. 
+In the original worksheet, all the information was sorted by the “Homeroom” column. However, if we sort the whole sheet again alphabetically by the “Last Name” of people, then not only the order of “Last Name” did change, but information in other columns which is related to this name also moves. That is, Excel recognizes and treats each row of data as an entry and each entry will move up or down the table as it is sorted.
 
-Sort range means we only sort a part of the cells in a sheet, and it will be convenient when there are a few different tables in the same worksheet. 
+Sort range means we only sort a part of the cells in a sheet, and it will be convenient when there are multiple different tables in the same worksheet. That is, Excel will **only** sort the data that you selected. Unlike Sort sheet, Excel will not automatically recognize surrounding cells to include in the sort.
 
 ![before-sorting](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image3.png?raw=true)
 ![after-sorting](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image4.png?raw=true)
 
-There are more than 1 table in the sheet, so we only want to sort the “Total Orders (by Grade)” on the right. Then after sorting range alphabetically by “Class”, all the cells of “Payment Method” on the left will never be affected. 
+In our case, there are more than one table in our demonstration sheet. We want to only sort the “Total Orders (by Grade)” table on the right. After sorting range alphabetically by “Class”, you will notice that all the cells in the columns from "Homeroom" to “Payment Method” on the left were unaffected. 
 
 ## Instructions
-### Sort Sheet
+### Sort sheet
 
 Goal: Sort the whole sheet alphabetically by “Last Name”.
 
-1.Select any cells in the “Last Name” column. For instance, we choose C2 this time.
+1. Select any cell in the “Last Name” column. For instance, we will choose cell C2 this time.
 
 ![select-cells](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image5.png?raw=true)
 
-2.Find “Data” on the top of the menu, and click the “A-Z” command to rank names from initial A to initial Z. 
+2. Find the “Data” tab on the top of the menu and click the “A-Z” command as shown to rank last names that start with A to those that start with Z. 
 
 ![click-data-sort](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image6.png?raw=true)
  
-3.The result has been presented below. 
+3. The result has been presented below in column C. 
 
 ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image7.png?raw=true)
 
@@ -56,23 +54,23 @@ Goal: Sort the whole sheet alphabetically by “Last Name”.
 
 Goal: Sort the number of “Orders” increasingly only in table “Total orders (by Grade)”.
 
-1.Select all the values in “Class” and “Orders” columns. 
+1. Select all the values in “Class” and “Orders” columns. 
 
 ![select-class-orders](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image8.png?raw=true)
 
-2.Find “Data” on the top of the menu, and click the “sort” command. 
+2. Find “Data” on the top of the menu, and click the “sort” command. 
 
 ![click-data-sort](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image9.png?raw=true)
 
-3.Click the ![small-arrow](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image10.png?raw=true) in “sort by” category and choose “Orders”. 
+3. Click the ![small-arrow](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image10.png?raw=true) in “sort by” category and choose “Orders”. 
 
 ![choose-orders](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image11.png?raw=true)
 
-4.Choose “Cell values” and “Smallest to Largest” separately. 
+4. Choose “Cell values” and “Smallest to Largest” separately. 
 
 ![choose-operations](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image12.png?raw=true)
 
-5.Confirm all your operations by clicking OK to see the result below. 
+5. Confirm all your operations by clicking OK to see the result below. 
 
 ![click-ok](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image13.png?raw=true)
 
