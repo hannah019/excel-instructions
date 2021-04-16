@@ -144,20 +144,44 @@ Options provides an entire suite of configurations. If an issue wasn't covered a
 
 If you are having trouble, see [Troubleshooting](https://hannah019.github.io/excel-instructions/docs/index-test/)
 
+## File
+
+Clicking on File will return you to the splash page. For information on how to navigate in the splash page, please see the above section on this page.
+
 ## Home
+
+Home includes the most common options for Excel, such as changing the colour and size of text. It also includes cell formatting options (adding, deleting or merging cells)
 
 ## Insert
 
+Insert allows you to place tables, charts and shapes into your Excel file. You can also insert links and comments.
+
 ## Page Layout
+
+Page layout deals with big picture visual settings relating to the page. You can change the colour of the page itself as well as the height and weight.
+
+You can even insert backgrounds and page breaks.
 
 ## Formulas
 
+The formulas section is critical for inserting logic into your document. For further information on some of the most important Excel functions, please see the Formulas and Functions page.
+
 ## Data
+
+The Data section allows you to group and analyze large amounts of information at one time. You can insert data from files either locally or on the cloud. You can sort and filter data, and even create a forcast based on your current data.
 
 ## Review
 
+The Review section helps you polish off your Excel workbook. In addition to spelling and grammar checks, the Review tab provides references to a thesaurus, statistics and a translator. The Review tab also allows you to check the accessibility of the workbook to ensure that everyone can interact with your sheets.
+
 ## View
+
+The View tab deals with how the cells are viewed. An important feature that many people neglect is the Freeze Panes feature. If you elect to freeze some cells they will always be visible, no matter where you scroll! This allows you to keep certain pieces of information on the screen while you freely move about the rest of the sheet.
 
 ## Help
 
+The Help tab gives you more information about Excel and allows you to troubleshoot your problems. The Help tab even includes links to external support, in case you need to speak to a real person.
+
 ## QuickBooks
+
+Quickbooks provides integration with the QuickBooks suite of programs. QuickBooks is accounting software and allows more sophisticated tools for those using Excel for financial and accounting purposes.
