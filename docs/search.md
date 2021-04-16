@@ -19,4 +19,4 @@ Here you will find definitions to technical terms you may encounter throughout t
 *	formula - 
 *	number -
 *	array –
-* logical test - 
+* logical test - A logical test is when Excel checks whether or not a condition is true. If the condition is true, the logical test will return true. Otherwise, it will return false.
