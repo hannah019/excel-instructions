@@ -34,8 +34,7 @@ Many people prefer to edit their own formulas to calculate the values in their o
 
 1. Click on the cell where you want to get the value. In this case, we choose B5 for instance. 
 ![click-cell](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image2.png?raw=true)
-2. Type the formula “=A1*A2+A3”. 
-
+2. Type the formula “=A1*A2+A3”.
 ![type-formula](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image3.png?raw=true)
 3. Press “enter”, then the value of this formula is in B5. Also, the formula will still be presented in the bar in the top right. 
 ![enter-to-see](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image4.png?raw=true)
