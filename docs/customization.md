@@ -37,10 +37,13 @@ In our case, there are more than one table in our demonstration sheet. We want t
 Goal: Sort the whole sheet alphabetically by “Last Name”.
 
 1. Select any cell in the “Last Name” column. For instance, we will choose cell C2 this time.
+ 
  ![select-cells](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image5.png?raw=true)
+ 
 2. Find the “Data” tab on the top of the menu and click the “A-Z” command as shown to rank last names that start with A to those that start with Z. 
  
  ![click-data-sort](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image6.png?raw=true)
+ 
 3. The result has been presented below in column C.
  
  ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image7.png?raw=true)
@@ -50,14 +53,23 @@ Goal: Sort the whole sheet alphabetically by “Last Name”.
 Goal: Sort the number of “Orders” in increasing value only in the table, “Total orders (by Grade)”.
 
 1. Select all the values in “Class” and “Orders” columns. 
+
  ![select-class-orders](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image8.png?raw=true)
+ 
 2. Find “Data” on the top of the menu, and click the “sort” command. 
+
  ![click-data-sort](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image9.png?raw=true)
+ 
 3. Click the ![small-arrow](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image10.png?raw=true) in “sort by” category and choose “Orders”. 
+
  ![choose-orders](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image11.png?raw=true)
+ 
 4. Choose “Cell values” and “Smallest to Largest” separately. 
+
  ![choose-operations](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image12.png?raw=true)
+ 
 5. Confirm all your operations by clicking OK to see the result below. 
+
  ![click-ok](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image13.png?raw=true)
  ![result](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/data-analysis-image14.png?raw=true)
 
