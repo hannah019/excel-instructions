@@ -33,15 +33,10 @@ Arguments are not as straightforward as equals sign and function name, so they m
 Many people prefer to edit their own formulas to calculate the values in their own ways without the help of Excel functions. For example, if we want to multiply both value of A1 and A2 then add the value of A3, we should follow the steps below.
 
 1. Click on the cell where you want to get the value. In this case, we choose B5 for instance. 
-
 ![click-cell](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image2.png?raw=true)
-
 2. Type the formula “=A1*A2+A3”. 
-
 ![type-formula](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image3.png?raw=true)
-
 3. Press “enter”, then the value of this formula is in B5. Also, the formula will still be presented in the bar in the top right. 
-
 ![enter-to-see](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image4.png?raw=true)
 
 Note:  
@@ -65,16 +60,11 @@ So far, notice that values in a formula are shown with the cell location, that i
 ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-1.PNG?raw=true)
 
 1. In this example, the formula tells us we are simply multiplying three values. However, looking at the formula alone, it's not known what the result means.
-The solution is to give the cells a name. You can do this by right-clicking on a cell and selecting “Define Name…”. The following dialog box will appear.
-
+The solution is to give the cells a name. You can do this by right-clicking on a cell and selecting “Define Name…”. The following dialog box will appear
 ![defined-names-dialog-box](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-2.PNG?raw=true)
-
 2. In the dialog box, enter the desired name for your cell value. When complete, the formula now consists of the name of the values, “Length”, “Width”, and “Height”. From this, another user can quickly deduce that whoever wrote the formula wanted to find the volume of a rectangular prism. As you can see, the formula is much more intuitive and easier to understand, especially in cases where formulas can have 10 or more cells. 
-
 ![formula-with-defined-names](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-3.PNG?raw=true)
-
 3. This feature also works for arrays as well. Simply drag and select an array of cells, right-click, and select “Define Name…” to name your array.
-
 ![formula-with-defined-names](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/defined-names-4.PNG?raw=true)
 
 
@@ -94,16 +84,11 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
   AutoSum is most frequently used icon for many Excel users because it contains the most popular functions in Excel. So, how can we use that? 
   
 1. Choose the right cells as your arguments. In this example, we have to choose from B2 to B6. 
-  
   ![choose-cells](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image6.png?raw=true)
-
 2. Click the  on the right of AutoSum and select which specific function you need. In this example, we choose function Max to find the greatest numerical values       in the argument. 
-  
 ![click-autosum](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image7.png?raw=true)
  ![choose-max](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image8.png?raw=true)
-
 3. The maximum numerical value is automatically shown under the last cell of the argument (B7) which is highlighted in yellow. 
-  
   ![maximum-value](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image9.png?raw=true)
 
   Note:  
@@ -118,23 +103,14 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
 Beside AutoSum, users are also able to insert Excel functions from the comprehensive library. Let us use IF as a harder example. 
 
 1. Click formulas, and then find “Insert Function” in the very left.  
-
  ![click-formulas](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image10.png?raw=true)
-
 2. Click OK to choose IF and carefully read the syntax of this function. In other words, make sure you know how to write this function correctly and list all the conditions needed to operate it.    
-
   ![select-if](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-11.png?raw=true)
-
 3. List all the conditions needed in the blank. 
-
   ![list-conditions](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-12.png?raw=true)
-
 4. In our example, people can receive a gift in the Chinese New Year if and only if they are younger than 18. Therefore, our Logical_test is B2<18.  
-
   ![condition-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-13.png?raw=true)
-
 5. Choose OK to confirm your syntax. 
-
  ![result-example](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/functions-image-14.png?raw=true)
 
 Note:
