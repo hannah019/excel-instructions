@@ -30,6 +30,11 @@ This guide is for any basic computer user who has little or no prior exposure to
 
 Excel is a powerful program with an extensive list of features and functionality. Advanced topics such as Pivot tables and Microsoft Visual Basic will not be covered. By the end of this guide, you will know how to:
 
-*navigate the Excel program to locate its features
-*use formulas and functions to perform calculations
-*perform simple data analysis using Excel
+* navigate the Excel program to locate its features
+* use formulas and functions to perform calculations
+* perform simple data analysis using Excel
+
+### Helpful Advice and Notices
+
+![advice-notice-logo](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/notice-advice-logo.PNG?raw=true)
+Throughout this guide, you may encounter many nuances and fine points in Excel's functionality. We will use this symbol to emphasize points worth considering that will make using Excel easier and prevent possible errors. 
