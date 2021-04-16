@@ -99,7 +99,6 @@ Here we have some data for the position in meters of a ball thrown up vertically
  ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-4.PNG?raw=true)
 
 4. With the typing cursor over “Series X values”, drag and select the desired values for the x-axis as shown. Do the same for the Y values (Position-exp), but remove “{1}” which appears by default. Then, give your data set a name and press “OK” to finish. We now have our first set of data.
-
  ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-6.PNG?raw=true)
  ![unnamed-variables](https://github.com/hannah019/excel-instructions/blob/gh-pages/assets/images/chart-demo-7.PNG?raw=true)
 
