@@ -142,8 +142,6 @@ Feedback allows you to tell Microsoft whether you like or dislike a specific fea
 ### Options
 Options provides an entire suite of configurations. If an issue wasn't covered above, there's a good chance that it's in options.
 
-If you are having trouble, see [Troubleshooting](https://hannah019.github.io/excel-instructions/docs/index-test/)
-
 ## File
 
 Clicking on File will return you to the splash page. For information on how to navigate in the splash page, please see the above section on this page.
@@ -185,3 +183,7 @@ The Help tab gives you more information about Excel and allows you to troublesho
 ## QuickBooks
 
 Quickbooks provides integration with the QuickBooks suite of programs. QuickBooks is accounting software and allows more sophisticated tools for those using Excel for financial and accounting purposes.
+
+
+
+For more in-depth solutions to common problems, please see [Troubleshooting](https://hannah019.github.io/excel-instructions/docs/index-test/)
