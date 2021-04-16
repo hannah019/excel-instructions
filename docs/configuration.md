@@ -7,7 +7,7 @@ nav_order: 2
 # Navigation and View Tab
 {: .no_toc }
 
-{: .fs-4 .fw-200 }
+This page will give a gentle introduction to navigating Excel - namely the splash page and home page.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -17,12 +17,6 @@ nav_order: 2
 
 ---
 
-
-## Navigation introduction
-
-```yaml
-This page will give a gentle introduction to navigating Excel - namely the splash page and home page.
-```
 
 ## Splash page
 
